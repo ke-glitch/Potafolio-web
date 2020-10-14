@@ -1,0 +1,395 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background:white;
+    margin: auto;
+}
+
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-family: sans-serif;
+    color: #1E1E1E;
+    text-align: center;
+}
+
+h2{
+    font-family: sans-serif;
+    color: #1E1E1E;
+}
+
+.inicio{
+    height: 50%;
+    align-items: center;
+    background-color: white;
+}
+
+.logo{
+    height: auto;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.gif{
+    height: auto;
+    width: 100%;
+    margin: 10px;
+}
+.menu{
+    padding: 9px;
+    height: 100px;
+    justify-content: space-around;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+}
+
+.botones1{
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    border-color: white;
+    background-color: #D94C6A;
+}
+
+.botones2{
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    border-color: white;
+    background-color: #874E96;
+}
+
+.botones1:hover{
+    filter: opacity(.5);
+}
+.botones2:hover{
+    filter: opacity(.5);
+}
+
+.manu1{
+    color: white;
+}
+
+.mipersona{
+    height: 110%;
+    background-color: #E1E1E1;
+}
+
+.mipersona2{
+    display: flex;
+    height: 50%;
+}
+
+.adelante{
+    animation-delay: 1s;
+    position: absolute;
+    top: 23px;
+    width: 100%;
+    height: 90%;
+    z-index: 1;
+}
+
+.fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.linea{
+    width: 100%;
+    height: 10px;
+    background: #D94C6A;
+}
+.art{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background: #D94C6A;
+}
+
+.nombre{
+    animation-delay: 1s;
+}
+
+.text{
+    margin: 10px;
+    animation-delay: 2s;
+}
+
+.trazado{
+    margin: 10%;
+}
+
+.Iam {
+    animation-delay: 3s;
+    padding: 2em 5em;
+    font: normal 40px/50px roboto, sans-serif;
+    color: #1E1E1E;
+  }
+  .Iam p {
+    height: 50px;
+    float: left;
+    margin-right: 0.3em;
+  }
+  .Iam b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    top: 40px;
+  }
+  .Iam .innerIam {
+    display: inline-block;
+    color: #D94C6A;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+  
+  
+  /*animation*/
+  -webkit-animation:move 5s;
+     -moz-animation:move 5s;
+      -ms-animation:move 5s;
+       -o-animation:move 5s;
+          animation:move 5s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count:infinite;
+     -moz-animation-iteration-count:infinite;
+      -ms-animation-iteration-count:infinite;
+       -o-animation-iteration-count:infinite;
+          animation-iteration-count:infinite;
+  /*animation-delay*/
+  -webkit-animation-delay:1s;
+     -moz-animation-delay:1s;
+      -ms-animation-delay:1s;
+       -o-animation-delay:1s;
+          animation-delay:1s;
+  }
+  @keyframes move{
+  0%  { top: 0px; }
+  20% { top: -50px; }
+  40% { top: -100px; }
+  60% { top: -150px; }
+  80% { top: -200px; }
+  }
+  
+  @-webkit-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-moz-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-o-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+
+.habilidades{
+    background-color: #D94C6A;
+    height: 110%;
+}
+
+.imagen{
+    height: 10%;
+    width: 10%;
+    animation-delay: 1,5s;
+}
+
+.circulo{
+    height: 10%;
+    width: 10%;
+    animation-delay: 1s;
+}
+
+.barras{
+    background-color: #1E1E1E;
+    height: 100px;
+}
+.barras2{
+    background-color: white;
+    height: 100px;
+}
+
+.gustos{
+    align-items: center;
+    text-align: center;
+    height: 1044px;
+    padding: 10px; 
+}
+.gustostitulo{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.inspi{
+    text-align: center;
+    background-color: #E1E1E1;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 15%;
+    animation-delay: 2s;
+    
+}
+.inspi2{
+    text-align: center;
+    border-radius: 15px;
+    height: 20%;
+    margin: 50px;
+    background-color: #E1E1E1;
+    justify-content: space-between;
+    animation-delay: 1,8s;
+}
+
+
+.Portafolio{
+    height: 500px;
+    background-color: white;
+    justify-content: space-around;
+    animation-delay: 2s;
+}
+
+.pixel{
+    animation-delay: 1,5s;
+}
+
+.luna{
+    animation: infinite;
+}
+
+.carru{
+    background-color: #E1E1E1;
+}
+
+.caja1{
+    height: 210px;
+    width: 303px;
+}
+
+.carousel-inner{
+    height:100%;
+    width: 1171px;
+    background-color: #1E1E1E;
+}
+
+.ilustraciones{
+    height: 10px;
+    width: 50%;
+}
+
+.fotos{
+    height: 10px;
+    width: 50%;
+}
+
+.titulomanu{
+    color: white;
+    text-decoration: none;
+}
+
+.seccion:hover {
+    filter: saturate(150%);
+    text-decoration: none;
+
+}
+.manual{
+    height: 390px;
+    background: rgb(135,78,150);
+    background: linear-gradient(90deg, rgba(135,78,150,1) 0%, rgba(217,76,106,1) 100%);  
+}
+
+.contacto{
+    height: 40%;
+}
+
+.tarjeta{
+    margin-top: 200px;
+    margin-bottom: 120px;
+    z-index: 1;
+}
+
+.card{
+    margin-top: 500px;
+    margin-bottom: 20%;
+    height: 364px;
+    width: 688px;
+    margin: 20px;
+    border-radius: 20px;
+
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(12, 11, 11, 0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+.imgscroll{
+    justify-content: center;
+    margin-bottom: 11%;
+    margin-top: 10%;
+    margin-left: 30px;
+    height: 20px;
+    width: 20px;
+}
+
+.pie{
+    height: 120px;
+    width: 100%;
+    background-color: #1E1E1E;
+}
+
+.redes{
+    height: 70%;
+    width: 100%;
+    border-radius: 150px;
+    background-color: black;
+}
+
+.iconos{
+    margin-top: 20px;
+    height: 5%;
+    width: 5%;
+    animation-delay: 1s;
+}
+
+.iconos:hover{
+    filter: opacity(.5);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    }
